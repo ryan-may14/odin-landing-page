@@ -1,0 +1,56 @@
+:root {
+    --white: #F9FAF8;
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --gray: #E5E7EB;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.header{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 180px;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header a {
+    color: var(--gray);
+    font-size: 18px;
+}
+
+.hero {
+    background-color: var(--dark-blue);
+    
+}
