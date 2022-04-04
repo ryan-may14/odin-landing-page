@@ -151,3 +151,31 @@ p {
     font-weight: bold;
     text-align: end;
 }
+
+.cta-container {
+    background-color: var(--light-blue);
+    margin: 100px 170px;
+    padding: 30px 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta {
+    color: var(--white);
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-button {
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    color: var(--white);
+    background-color: var(--light-blue);
+    padding: 0px 30px;
+    margin: 5px 0px;
+    font-weight: bold;
+}
