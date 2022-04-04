@@ -113,6 +113,7 @@ p {
     justify-content: center;
     gap: 50px;
     margin: 0px 200px;
+    margin-bottom: 120px;
 }
 
 .info-box {
@@ -130,4 +131,23 @@ p {
 .info-subtext {
     color: var(--dark-blue);
     text-align: center;
+}
+
+.quote {
+    background-color: var(--gray);
+    padding: 80px 220px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: end;
 }
